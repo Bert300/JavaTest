@@ -1,13 +1,8 @@
-// Note: Solution for this exercise is provided below. Study the solution
-// and try to implemented yourself.
-
-/*
-
+import "./index.css";
 
 function validateForm(data) {
   return data.get("searchTerm").trim() !== "";
 }
-
 
 const form = document.querySelector("#searchForm");
 form.addEventListener("submit", function (event) {
@@ -37,5 +32,3 @@ form.addEventListener("submit", function (event) {
     }
   }
 });
-
-*/
